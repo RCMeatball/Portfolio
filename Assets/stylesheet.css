@@ -2,4 +2,92 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: white
+}
+body {
+    background-color: black;
+}
+
+header {
+    background: green;
+   
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-style: italic;   
+}
+
+header p {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 30px;
+    
+}
+
+.Aurora {
+    height: 400px;
+    width: 75%;
+    margin-bottom: 25px;
+    margin-left: 250px;
+    background-image: url("./northern\ lights.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.About-me p {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    justify-content: space-between;
+    background-color: green;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+}
+
+h2 {
+    border: 5px solid green;
+    padding:10px;
+    max-width: 200px;
+    
+}
+
+.My-Work {
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.My-Work p {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.My-Work a {
+    margin: 5px 10px 10px 5px;
+    background-color: green;
+    font-size: 40px
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 60px;
+}
+
+footer p {
+    background-color: green;
+    padding: 10px;
+    font-family:monospace;
+    font-size: 20px;
 }
